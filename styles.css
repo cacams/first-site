@@ -1,9 +1,13 @@
 .banner {
-  background-color: gray;
+   background-color: rgb(85, 174, 233);
   padding: 5%;
-  text-align: center;
-  margin: 0%;
+  margin: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .banner ul {
@@ -11,12 +15,15 @@
   padding: 5px;
   font: 16px , sans-serif;
   text-align: center;
+  
 }
 .banner ul li {
   display: inline-block;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 2.5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 1%;
+  border-radius: 15%;
+  background-color: goldenrod;
 }
 
 .banner a {
@@ -24,9 +31,15 @@
   color: black;
 }
 
-.banner div {
+.banner nav {
   color: white;
-  
+  max-width: 100%;
+  font-size: clamp(12px, 8vw, 10px);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
