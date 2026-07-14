@@ -10,13 +10,11 @@
   box-sizing: border-box;
   animation: fadeIn 1s ease-in;
 }
-
 .banner ul {
   list-style: none;
   padding: 5px;
   font: 16px , sans-serif;
   text-align: center;
-  
 }
 .banner ul li {
   display: inline-block;
@@ -28,22 +26,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
-
 .banner a {
   text-decoration: none;
   color: black;
 }
-
 .banner nav {
   color: white;
   max-width: 100%;
   font-size: clamp(12px, 8vw, 10px);
 }
-
 .banner li:hover {
   background-color: rgb(248, 240, 224);
   transform: scale(1.03);
 }
+
 img {
   max-width: 80%;
   height: auto;
@@ -51,12 +47,26 @@ img {
 
 body {
   margin: 0;
+  padding: 0;
+}
+
+.info {
+  background-color: rgb(233, 199, 132);
+  width: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  text-align: center;
+  width: 100%;
   box-sizing: border-box;
 }
 
+.info button {
+  text-align: center;
+  width: 5rem;
+  height: 2rem;
+}
 @keyframes fadeIn {
   from { opacity: 0; 
         transform: translateY(-10px);
