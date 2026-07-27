@@ -41,7 +41,7 @@
 }
 
 img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -56,7 +56,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
@@ -64,8 +64,103 @@ body {
 
 .info button {
   text-align: center;
-  width: 5rem;
-  height: 2rem;
+  width: 15rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: rgb(142, 206, 248);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info button:hover {
+  background-color: rgb(65, 107, 248);
+  transform: scale(1.03);
+  color: white;
+}
+#info-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin: 2rem;
+}
+
+#info-content p {
+  font-size: 1rem;
+}
+.about {
+  background-color: rgb(130, 241, 180);
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.about div {
+  flex-direction: row;
+}
+.about h2 {
+  font-size: 
+  3rem;
+  margin-bottom: 1rem;
+}
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin: 2rem;
+}
+
+.discord {
+  background-color: rgb(233, 179, 247);
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.discord div {
+  flex-direction: row;
+}
+.discord h2 {
+  font-size: 
+  3rem;
+  margin-bottom: 1rem;
+}
+.discord-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin: 2rem;
+}
+
+.contact {
+  background-color: rgb(247, 114, 145);
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem;
 }
 @keyframes fadeIn {
   from { opacity: 0; 

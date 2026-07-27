@@ -18,29 +18,50 @@
       </ul>
     </nav>
   </section>
-  <header>
-    <div class="info">
+  <header class="info">
+    <div id="info-content">
+      <div>
       <h1>Best Place to learn frontend development</h1>
-      <p>Learn the latest frontend technologies with our comprehensive courses.</p>
-      <button>Start now!</button>
-    
+      <p>Learn the latest frontend technologies with our comprehensive courses.</p> 
+    </div>
     <figure>
       <img src="./assets/laptop.png" alt="Laptop Picture" />
     </figure>
     </div>
+    <figure>  
+      <button>Start now!</button>
+    </figure>
   </header>
     <main>
-      <section id="about"> 
+      <section class="about"> 
+        <div class="about-content">
+        <div> 
+          <figure>
+          <img src="./assets/about.jpg" alt="About Picture" />
+          </figure>
+        </div>
+
+        <div>
         <h2>About</h2>
         <p>Welcome to our website! We are a community of frontend developers passionate about learning and sharing knowledge.</p>
-      </section>
-      <section id="discord">
+        </div>
+      </div>
+    </section>
+      <section class="discord">
+        <div class="discord-content">
+        <div>
         <h2>Discord</h2>
         <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
           Join our Discord server!
         </a>
+        </div>
+        <div> 
+        <img src="./assets/discord.png" alt="Discord Logo" />
+        </div>
+      </div>
       </section>
-      <form id="contact">  
+
+      <form class="contact">  
         <h2>Contact</h2>
         <p>Email</p>
         <textarea placeholder="youremail@fes.com" id="email" rows="1" cols="50"></textarea>
