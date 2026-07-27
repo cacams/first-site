@@ -1,3 +1,8 @@
+/*
+
+BANNER STYLES
+
+*/
 .banner {
    background-color: rgb(85, 174, 233);
   padding: 2rem;
@@ -41,7 +46,7 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -49,7 +54,11 @@ body {
   margin: 0;
   padding: 0;
 }
+/*
 
+INFO STYLES
+
+*/
 .info {
   background-color: rgb(233, 199, 132);
   width: 100%;
@@ -92,6 +101,13 @@ body {
 #info-content p {
   font-size: 1rem;
 }
+
+/*
+
+ABOUT STYLES
+
+*/
+
 .about {
   background-color: rgb(130, 241, 180);
   width: 100%;
@@ -121,6 +137,11 @@ body {
   margin: 2rem;
 }
 
+/*
+
+DISCORD STYLES
+
+*/
 .discord {
   background-color: rgb(233, 179, 247);
   width: 100%;
@@ -149,7 +170,11 @@ body {
   text-align: left;
   margin: 2rem;
 }
+/*
 
+CONTACT STYLES
+
+*/
 .contact {
   background-color: rgb(247, 114, 145);
   width: 100%;
@@ -162,6 +187,23 @@ body {
   box-sizing: border-box;
   padding: 2rem;
 }
+
+/*
+
+FOOTER STYLES
+
+*/
+footer {
+  background-color: rgb(85, 174, 233);
+  padding: 1rem;
+  text-align: center;
+}
+/*
+
+ANIMATIONS
+
+*/
+
 @keyframes fadeIn {
   from { opacity: 0; 
         transform: translateY(-10px);
